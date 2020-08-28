@@ -1,0 +1,26 @@
+$primary: #B26700;
+$naranja: #FF9300;
+$piel: #FFC77A;
+$azuloscuro: #006FB2;
+$azulclaro: #009FFF;
+
+@import 'bootstrap/bootstrap.scss';
+
+body{
+	font-family: 'Roboto';
+	color: $primary;
+}
+
+h1,h2,h3,h4,h5,h6{
+	margin: 0;
+}
+
+img{
+	max-width: 100%;
+}
+
+a{
+	&:hover{
+		text-decoration: none;
+	}
+}
